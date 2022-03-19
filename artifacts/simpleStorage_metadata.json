@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/1_Simple_Storage.sol": "simpleStorage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/1_Simple_Storage.sol": {
+			"keccak256": "0xc450a9ebf13506d795f7952bacf48454346811bcb48bf9686abf9c10e42829f4",
+			"urls": [
+				"bzz-raw://b8f5002304863c994773cbe6a3836e2fc6cd1dc58064fdda426cd582e82e7939",
+				"dweb:/ipfs/QmQNxV5HdZ9yteMqxLKdwSfYCRtPfMtwqRBqy9PZYZ6Jxd"
+			]
+		}
+	},
+	"version": 1
+}
